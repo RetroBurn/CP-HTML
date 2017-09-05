@@ -1,0 +1,10 @@
+HTLM Website
+
+An HTML document always starts with <!DOCTYPE html>
+
+An opening HTML tag starts like this: <html>
+And a closing one has a slash in it:</html>
+
+Bodies are essential in a website so that you can add image, buttons and texts.
+
+Break tag are self breaking tags. Where there is only one tag. <br />
