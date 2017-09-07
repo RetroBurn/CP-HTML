@@ -8,3 +8,46 @@ And a closing one has a slash in it:</html>
 Bodies are essential in a website so that you can add image, buttons and texts.
 
 Break tag are self breaking tags. Where there is only one tag. <br />
+
+<p> is the child element and <body> is the parent element
+
+This displays the title on your website. <h1>Hello World</h1>
+
+Programmers use two tools to visualize the relationship between elements: whitespace and indentation.
+
+
+
+REVIEW
+
+HTML stands for HyperText Markup Language and is used to create the 
+structure and content of a webpage.
+
+Most HTML elements contain opening and closing tags with raw text or other HTML tags 
+between them.
+
+Single-closing tags cannot enclose raw text or other elements.
+
+Comments are written in HTML using the following syntax: <!-- comment -->.
+
+HTML elements can be nested inside other elements. The enclosed element is the child
+of the enclosing parent element.
+
+Whitespace between HTML elements helps make code easier to read while not changing
+how elements appear in the browser.
+
+Indentation also helps make code easier to read. It makes parent-child relationships
+visible.
+
+The <!DOCTYPE html> declaration should always be the first line of code in your HTML
+files.
+
+The <html> element will contain all of your HTML code.
+
+Information about the web page, like the title, belongs within the <head> of the 
+page.
+
+You can add a title to your web page by using the <title> element, inside of the 
+head.
+
+A webpage's title appears in a browser's tab.
+Code for visible HTML content is placed inside of the <body> element.
