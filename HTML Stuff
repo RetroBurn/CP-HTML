@@ -51,3 +51,24 @@ head.
 
 A webpage's title appears in a browser's tab.
 Code for visible HTML content is placed inside of the <body> element.
+
+Advanced Stuff
+
+To put a photo on a website you do <img src="Image link"/>
+
+to make a link you do <a href="index.html">Doomfist</a>
+
+There are six h's. h1 is the bigest and every time you go up one h, the font becomes smaller. 
+h1= Biggest font 
+h2
+h3
+h4
+h5
+h6
+
+<p> is a paragraph that holds text you right.
+
+<em> makes it in italic
+<strong> makes it in bold
+
+<br /> basically presses enter on the keyboard
