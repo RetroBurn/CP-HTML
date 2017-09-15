@@ -72,3 +72,19 @@ h6
 <strong> makes it in bold
 
 <br /> basically presses enter on the keyboard
+
+<ul> is an unordered list were it makes a list of items but in every <ul> needs a <li>
+
+<li> specifies what the thing id in the <ul> list.
+
+Ex: <ul>
+      <li>lemons</li>
+	</ul>
+
+<ol> is the exact same thing as <ul> but it's an ordered list. It still uses <li>'s 	
+
+If the pictue on your website did not load then you can use ALT to have a description on the image.
+
+Ex: <img src="Link of Photo" <img src="#" alt="Description of Photo" />
+
+
