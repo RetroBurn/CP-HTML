@@ -87,4 +87,8 @@ If the pictue on your website did not load then you can use ALT to have a descri
 
 Ex: <img src="Link of Photo" <img src="#" alt="Description of Photo" />
 
+<video src="Video Link" width="320" height="240" controls>
+  Video not supported
+</video>
 
+<a>=Link to website where you got your information.
