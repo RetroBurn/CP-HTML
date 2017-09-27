@@ -92,3 +92,34 @@ Ex: <img src="Link of Photo" <img src="#" alt="Description of Photo" />
 </video>
 
 <a>=Link to website where you got your information.
+
+CREATING TABLES.
+<table> starst and creates the table and </table> closes it.
+<tr> is put in between both tables and it makes the rows. <tr>= table rows
+<td> is table data. it hold information in a little square
+
+Ex: <tr>
+    </tr>
+    <tr>
+      <td>
+        Adam's Greenwowrks
+      </td>
+      <td>
+        14
+      </td>
+      <td>
+        Package Items
+      </td>
+    </tr>
+
+	
+<th>= table heading. This adds titles to each row.
+
+row - this value makes it clear that the heading is for a row.
+col - this value makes it clear that the heading is for a column. 
+
+you can border something in CSS
+
+<thead> is like the body of a table. You need to have it.
+<foot> sums up what you have writen and you put before and after the bottom
+
