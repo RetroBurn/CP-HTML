@@ -60,3 +60,28 @@ Vertical margins collapse, so the space between vertically adjacent elements is 
 margin: 0 auto horizontally centers an element inside of its parent content area, if it has a width.
 The overflow property can be set to display, hide, or scroll, and dictates how HTML will render content that overflows its parent's content area.
 The visibility property can hide or show elements.
+
+We are now learning 5 properties in CSS. 
+The 5 properties are:
+- position
+- display
+- z-index
+- float
+- clear
+
+Position:
+
+You can position things four diffrent ways. 
+The four diffrent ways are:
+
+static - the default value (it does not need to be specified)
+relative
+absolute
+fixed
+
+In all of these positions above you can put them as:
+top - moves the element down.
+bottom - moves the element up.
+left - moves the element right.
+right - moves the element left.
+
