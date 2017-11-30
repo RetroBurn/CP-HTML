@@ -19,3 +19,66 @@ console.log(myAge);
 // Output: 11
 
 In the example above, on line 1 the myAge variable is set to 11. Below that, console.log() is used to print 11 to the console.
+
+In the final task of the previous exercise you received the following error:
+
+TypeError: Assignment to constant variable.
+JavaScript threw an error because you assigned a new value to a constant variable. Constant variables, as their name implies, are constant — you cannot assign them a different value.
+
+Let variables however, can be reassigned.
+
+let meal = 'Enchiladas';
+console.log(meal);
+meal = 'Tacos';
+console.log(meal);
+// output: Enchiladas
+// output: Tacos
+
+In the example above, the let keyword is used to create the meal variable with the string 'Enchiladas' saved to it. On line three, the meal variable is changed to store the string 'Tacos'.
+
+You may be wondering, when to use const vs let. In general, only use const if the value saved to a variable does not change in your program.
+
+What happens if you create a variable, but don't assign it a value?
+
+JavaScript creates space for this variable in memory and sets it to undefined. Undefined is the fifth and final primitive data type. JavaScript assigns the undefined data type to variables that are not assigned a value.
+
+let whatAmI;
+In the example above, we created the variable whatAmI without any value assigned to it. JavaScript creates the variable and sets it equal to the value undefined.
+
+What happens if you create a variable, but don't assign it a value?
+
+JavaScript creates space for this variable in memory and sets it to undefined. Undefined is the fifth and final primitive data type. JavaScript assigns the undefined data type to variables that are not assigned a value.
+
+let whatAmI;
+In the example above, we created the variable whatAmI without any value assigned to it. JavaScript creates the variable and sets it equal to the value undefined.
+
+In this exercise, let's consider how we can use variables and math operators to calculate new values and assign them to a variable. Check out the example below:
+
+let x = 4;
+x = x + 1;
+
+In the example above, we created the variable x with the number 4 assigned to it. On the following line, x = x + 1 increases the value of x from 4 to 5.
+
+Notice, on line two in the example above, to increment x by one we had to write the x variable on the left and right side of the assignment operator (=). Using a variable twice in one expression is redundant and confusing.
+
+To address this, JavaScript has a collection of built-in mathematical assignment operators that make it easy to calculate a new value and assign it to the same variable without writing the variable twice. See examples of these operators below.
+
+let x = 4;
+x += 2; // x equals 6
+
+let y = 4;
+y -= 2; // y equals 2
+
+let z = 4;
+z *= 2; // z equals 8
+
+let r = 4;
+r++; // r equals 5
+
+let t = 4;
+t--; // t equals 3
+
+In the example above, operators are used to calculate a new value and assign it to the same variable. Let's consider the first three and last two operators separately:
+
+The first three operators (+=, -=, and *=) perform the mathematical operation of the first operator (+, -, or *) using the number on the right, then assign the new value to the variable.
+The last two operators are the increment (++) and decrement (--) operators. These operators are responsible for increasing and decreasing a number variable by one, respectively.
