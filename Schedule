@@ -1,1 +1,191 @@
-Today I added classes to evry single one of my classes and added a switch statement with all my classes in it.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>School Scheduel</title>
+  <link href ="School CSSS.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+
+
+<h1 id="test">My Class Scheduel</h1>
+<table style="width:105%;" border="1">
+    <thead>
+      <tr>
+        <th>Periods</th>
+		<th>Day 1</th>
+        <th>Day 2</th>
+        <th>Day 3</th>
+		<th>Day 4</th>
+        <th>Day 5</th>
+        <th>Day 6</th>
+		<th>Day 7</th>
+        <th>Day 8</th>
+        <th>Day A1</th>
+		<th>Day A3</th>
+        <th>Day A6</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+	    <th>Period 1<br /> 8:20am<br /> 9:20am</th>
+		<td class="Rel"> RelEth<br />Fr. Brennen<br />150</td>
+        <td class="Science">SciTech<br />Mr. Morow<br />353</td>
+        <td class="French">French<br />Mr. Duchasn<br />351</td>
+		<td class="English">Eng LA<br />Mr. Proeti<br />235</td>
+        <td class="hist">Hist<br />Schnitser<br />150</td>
+        <td class="Programming">CompProg<br />Dagano<br />Comp. Lab C</td>
+		<td class="hist">Hist<br />Schnitser<br />150</td>
+		<td class="Math">TS Math<br />Antonechia<br />251</td>
+		<td class="Sleep In">Late Start<br /><br /></td>
+		<td class="French">French<br />Mr. Duchasn<br />351</td>
+		<td class="Rel">RelEth<br /><br /></td>
+	  </tr>
+	  <tr>
+	    <th>Period 2<br /> 9:25am<br />10:25am</th>
+		<td class="Science">SciTech<br />Mr. Morow<br />353</td>
+		<td class="Flute">Music<br />Pasqueeny<br />333</td>
+		<td class="Math">TS Math<br />Antonechia<br />252</td>
+		<td class="Programming">CompProg<br />Dagano<br />Comp. Lab C</td>
+		<td class="Flute">Music<br />Pasqueeny<br />333</td>
+		<td class="Math">TS Math<br />Antonechia<br />251</td>
+		<td class="Rel">RelEth<br />Fr. Brennen<br />150</td>
+		<td class="French">French<br />Mr. Duchasn<br />351</td>
+		<td class="Programming">CompProg<br />Dagano<br />Comp. Lab C</td>
+		<td class="Programming">CompProg<br />Dagano<br />Comp. Lab C</td>
+		<td class="Programming">CompProg<br />Dagano<br />Comp. Lab C</td>
+	  </tr>	
+	  <tr>
+	    <th>Period 3<br />10:40<br />11:40<br />
+		<td class="French">French<br />Mr. Duchasn<br />351</td>
+		<td class="English">Eng LA<br />Mr. Proeti<br />235</td>
+		<td class="Rel">RelEth<br />Fr. Brennen<br />134</td>
+		<td class="Science">SciTech<br />Mr. Morow<br />353</td>
+		<td class="English">Eng LA<br />Mr. Proeti<br />235</td>
+		<td class="English">Eng LA<br />Mr. Proeti<br />235</td>
+		<td class="French">French<br />Mr. Duchasn<br />351</td>
+		<td class="Science">SciTech<br />Mr. Morow<br />353</td>
+		<td class="French">French<br />Mr. Duchasn<br />351</td>
+		<td class="I get Very Sleepy">Mass<br />Maclean Center</td>
+		<td class="French">French<br />Mr. Duchasn<br />351</td>
+      </tr>
+	  <tr>
+	    <th>Period 4<br />12:30<br />1:00<br />
+		<td class="Programming">CompProg<br />Dagano<br />Comp. Lab C</td>
+		<td class="Hell">Spch<br />Par<br />235</td>
+		<td class="Free Time"HR<br />Fr. Brennen<br />135</td>
+		<td class="hist">Hist<br />Schnitser<br />150</td>
+		<td class="Hell">Spch<br />Par<br />250</td>
+		<td class="Flute">Music<br />Pasqueeny<br />333</td>
+		<td class="Comfy Chairs">LA<br />Fulveo<br />Maclean Center</td>
+		<td class="hist">Hist<br />Schnitser<br />150</td>
+		<td class="Relaxing Time"Advisors<br />Par<br />253</td>
+		<td class="Relaxing Time"Advisors<br />Par<br />253</td>
+		<td class="Relaxing Time"Advisors<br />Par<br />253</td>
+	  </tr>
+	  <tr>
+	    <th>Period 5<br />1:05<br />2:05<br />
+		<td class="Programming">CompProg<br />Dagano<br />Comp. Lab C</td>
+		<td class="hist">Hist<br />Schnitser<br />150</td>
+		<td class="Science">SciTech<br />Mr. Morow<br />353</td>
+		<td class="Math">TS Math<br />Antonechia<br />251</td>
+		<td class="Math">TS Math<br />Antonechia<br />251</td>
+		<td class="Flute">Music<br />Pasqueeny<br />333</td>
+		<td class="English">Eng LA<br />Mr. Proeti<br />235</td>
+		<td class="Gym">PE<br />Meaghere<br />Gym 1</td>
+		<td class="Science">SciTech<br />Mr. Morow<br />353</td>
+		<td class="Science">SciTech<br />Mr. Morow<br />353</td>
+		<td class="Science">SciTech<br />Mr. Morow<br />353</td>
+	  </tr>
+
+      <tr>
+	    <th>Period 6<br />2:10<br />3:05<br />
+		<td class="English">Eng LA<br />Mr. Proeti<br />235</td>
+		<td class="Math">TS Math<br />Antonechia<br />251</td>
+		<td class="Gym">PE<br />Meaghere<br />Gym 1</td>
+		<td class="French">French<br />Mr. Duchasn<br />351</td>
+		<td class="Science">SciTech<br />Mr. Morow<br />335</td>
+		<td class="hist">Hist<br />Schnitser<br />150</td>
+		<td class="Math">TS Math<br />Antonechia<br />251</td>
+		<td class="Flute">Music<br />Pasqueeny<br />333</td>
+		<td class="Rel">RelEth<br />Fr. Brennen<br />150</td>
+		<td class="Rel">RelEth<br />Fr. Brennen<br />150</td>
+		<td class="Early Gaming"Early Dismissal</td>
+	  </tr>	
+</tbody>
+</table>
+		<input id="Classroom" onkeyup="Function()" placeholder= "Search...">
+		<input type="submit" value="Search">
+	<script>
+  
+  var Class = 'Math'
+		switch (Class) {
+		case 'Math':
+			console.log('Math is a bit difficult this year')
+			var Oh = Math
+			break;
+		case 'Religion':
+			console.log('Religion is really boring')
+			var Oh = Religion
+			break;
+		case 'Science':
+			console.log('Science is really fun')
+			var Oh = Science
+			break;
+		case 'French':
+			console.log('French is OK')
+			var Oh = French
+			break;
+		case 'Music':
+		     console.log('Music is hard')
+			 var Oh = Music
+			break;
+		case 'English':
+			console.log('English is OK')
+			var Oh = English
+			break;	
+		case 'Computer Programming':
+			console.log('Computer Programming is hard but fun')
+			var Oh = Computer Programming 
+			break;
+		case 'History':
+			console.log('History is not that interesting this year')
+			var Oh = History
+			break;
+		case 'Gym':
+			console.log('Gym is really fun')		
+			var Oh = Gym
+			break;
+		case 'Speech':
+			console.log('Speech is Hell')
+			var Oh = Speech
+			break;
+		case 'Advisors':
+			console.log('Advisors is relaxing')
+			var Oh = Advisors
+			break;
+		case 'HoomRoom':
+			console.log('HoomRoom is relaxing')
+			var Oh = HoomRoom
+			break;	
+		case 'LA':
+			console.log('LA is interesting')
+			var Oh = LA
+			break;
+		case 'Late Start':
+			console.log('I get to sleep in')
+			var Oh = Late Start
+			break;
+		case 'Mass':
+			console.log('Somethimes I fall asleep')
+			var Oh = Mass
+			break;
+		case 'Early Dismissal':
+			console.log('Early Gaming')
+			var Oh = Early Dismissal
+			break;
+		}
+
+	</script>
+</body>
+</html>	  
