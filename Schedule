@@ -116,9 +116,10 @@
 </table>
 		<input id="Classroom" onkeyup="Function()" placeholder= "Search...">
 		<input onclick = 'Baby()' type="submit" value="Search">
+		<button onclick="location.reload();">Refresh Page</button>
 	
 	<script>			
-function Baby() {
+function Baby() {  <!--Everything underneath this is connected to the classes I gave to each of my courses up above. -->
 	var Lemon = document.getElementById("Classroom").value;
 	switch (Lemon) {
 		case 'Math':
@@ -188,7 +189,7 @@ function Baby() {
 	}
 	var Orange = document.getElementsByClassName(Oh);
 	for (x = 0; x < Orange.length; x++) {
-		Orange[x].style.backgroundColor = "yellow";
+		Orange[x].style.backgroundColor = "yellow";  <!--This line of code right here colors the subject when it is searched up -->
 	}
 		
 		
