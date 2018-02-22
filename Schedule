@@ -198,3 +198,51 @@ function Baby() {  <!--Everything underneath this is connected to the classes I 
 	</script>
 </body>
 </html>	 
+
+
+
+
+
+
+
+
+
+CSS
+
+table {
+    border-collapse: collapse;
+	border: 1px solid black;
+}
+
+th {
+    width: 120px;
+	height: 50px;
+	color: #FF1493
+	
+}
+
+body {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
+	background-color: #000070; 
+}
+	
+td{
+	padding-top:30px; 
+	text-align: center;
+	width: 120px;
+	height: 50px;
+	color: #3D9970
+}
+
+h1 {
+   	text-align: center;
+	font: ;
+}
+
+#test{
+	color: 	#3D9970
+}
+
